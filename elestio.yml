@@ -51,7 +51,7 @@ lifeCycleConfig:
 webUI:
   - url: "https://[CI_CD_DOMAIN]"
     label: "Ollama"
-    login: "admin"
+    login: "[ADMIN_EMAIL]"
     password: "[ADMIN_PASSWORD]"
   - url: "https://[CI_CD_DOMAIN]:57987"
     label: "Ollama API"

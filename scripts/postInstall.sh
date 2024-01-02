@@ -5,7 +5,7 @@ set -o allexport; source .env; set +o allexport;
 echo "Waiting for software to be ready ..."
 sleep 30s;
 
-target=$(docker-compose port 8080)
+target=$(docker-compose port ollama-webui 8080)
 
 
 
