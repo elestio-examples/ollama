@@ -28,6 +28,35 @@ You can open pgAdmin here:
     login: [ADMIN_EMAIL]
     password: [ADMIN_PASSWORD]
 
+# Ollama UI Documentation
+
+This guide will walk you through the steps of making a new request and pulling a model
+
+## Making a New Request
+
+### Choose a Model:
+
+To initiate a new request, click on the chevron down at the top of the screen. This will open a menu where you can select from the available models. If you have previously pulled a model, it will be displayed here for quick access.
+
+## Pulling a Model
+
+To pull a model using the UI, follow these steps:
+
+- Click on the Cork Icon:
+  Navigate to the top of the screen and click on the cork icon, as shown in the image below:
+
+  <img src="./steps//step-01.png" style='width: 50%;'/>
+
+- Access Models Section:
+  A popup will appear. Within the popup, navigate to the Models section.
+
+- Type Model Name:
+  In the Models section, type the name of the model you wish to pull. For example, you can type mistral:7b.
+
+    <img src="./steps//step-02.png" style='width: 50%;'/>
+
+- Follow these simple steps, and you'll successfully pull a model to enhance your natural language generation experience with Ollama.
+
 # Ollama API Documentation
 
 Welcome to the Ollama API documentation. This guide provides comprehensive information on how to interact with the Ollama API using the curl command.
@@ -72,32 +101,3 @@ In this mode, the response will be structured, presenting the generated content 
 ## Documentation
 
 For more detailed information about the Ollama API and its features, please refer to the official API documentation available <a target="_blank" href="https://github.com/jmorganca/ollama/blob/main/docs/api.md">here</a>.
-
-# Ollama UI
-
-This guide will walk you through the steps of making a new request and pulling a model
-
-## Making a New Request
-
-### Choose a Model:
-
-To initiate a new request, click on the chevron down at the top of the screen. This will open a menu where you can select from the available models. If you have previously pulled a model, it will be displayed here for quick access.
-
-## Pulling a Model
-
-To pull a model using the UI, follow these steps:
-
-- Click on the Cork Icon:
-  Navigate to the top of the screen and click on the cork icon, as shown in the image below:
-
-  <img src="./steps//step-01.png" style='width: 50%;'/>
-
-- Access Models Section:
-  A popup will appear. Within the popup, navigate to the Models section.
-
-- Type Model Name:
-  In the Models section, type the name of the model you wish to pull. For example, you can type mistral:7b.
-
-    <img src="./steps//step-02.png" style='width: 50%;'/>
-
-- Follow these simple steps, and you'll successfully pull a model to enhance your natural language generation experience with Ollama.
