@@ -22,12 +22,6 @@ You can open Ollama API here:
     login: "root"
     password: [ADMIN_PASSWORD]
 
-You can open pgAdmin here:
-
-    URL: https://[CI_CD_DOMAIN]:33374
-    login: [ADMIN_EMAIL]
-    password: [ADMIN_PASSWORD]
-
 # Ollama UI Documentation
 
 This guide will walk you through the steps of making a new request and pulling a model
