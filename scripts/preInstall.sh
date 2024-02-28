@@ -4,6 +4,7 @@ set -o allexport; source .env; set +o allexport;
 lshw_output=$(lshw)
 
 if [[ $lshw_output == *nvidia* ]]; then
+    nvidia-smi -pm 1
     echo "Installing the GPU version..."
     sed -i 's/#deploy:/deploy:/g' ./docker-compose.yml
     sed -i 's/#  resources:/  resources:/g' ./docker-compose.yml
