@@ -18,3 +18,8 @@ curl http://${target}/api/v1/auths/signup \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' \
   --data-raw '{"name":"admin","email":"'${ADMIN_EMAIL}'","password":"'${ADMIN_PASSWORD}'"}' \
   --compressed
+
+  sleep 30s;
+
+  docker-compose down;
+  docker-compose up -d;
