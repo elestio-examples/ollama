@@ -49,6 +49,8 @@ To pull a model using the UI, follow these steps:
 
     <img src="./steps//step-02.png" style='width: 50%;'/>
 
+- Restart your stack by clicking: `Overview`>`Restart` button.
+
 - Follow these simple steps, and you'll successfully pull a model to enhance your natural language generation experience with Ollama.
 
 # Ollama API Documentation
