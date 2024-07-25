@@ -15,7 +15,7 @@ services:
     #          count: all
     #          capabilities: [gpu]
     ports:
-      - 172.17.0.1:23405:11434
+      - 23405:11434
 
   ollama-webui:
     image: ghcr.io/ollama-webui/ollama-webui:main
